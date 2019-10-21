@@ -1,12 +1,13 @@
 import React from "react";
+import "../stylesheets/Filter.css";
 
 const Filter = props => {
   const { searchByName } = props;
   return (
-    <form className="filter__container">
+    <form className="filter_container">
       <input
         onChange={searchByName}
-        className="input"
+        className="filter_input"
         placeholder="Search pokemon by name"
       ></input>
     </form>

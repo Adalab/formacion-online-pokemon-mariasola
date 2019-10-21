@@ -19,3 +19,13 @@
       width: 1080px;
     }
   }
+
+.not_found {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.not_found_text{
+  font-size: 20px;
+  color: white;
+}

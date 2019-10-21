@@ -5,8 +5,8 @@ import "../stylesheets/PokeList.css";
 const PokeList = props => {
   if (props.pokemons.length === 0) {
     return (
-      <div className="not__found">
-        <p className="not__found--text">¡Ups!No hay pokemons que coincidan</p>
+      <div className="not_found">
+        <p className="not_found_text">¡Ups!No hay pokemons que coincidan</p>
       </div>
     );
   } else {

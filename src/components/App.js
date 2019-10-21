@@ -4,6 +4,7 @@ import "../stylesheets/App.css";
 import getDataFromApi from "../services/getDataFromApi";
 import PokeList from "./PokeList";
 import Filter from "./Filter";
+import Header from "./Header";
 
 class App extends React.Component {
   constructor() {
@@ -35,6 +36,7 @@ class App extends React.Component {
     });
     return (
       <div className="App">
+        <Header />
         <Filter searchByName={this.searchByName} />
         <PokeList pokemons={filter} />
       </div>
