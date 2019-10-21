@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  background-image: url("../images/background-1.png");
+  background-color:#484159;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
