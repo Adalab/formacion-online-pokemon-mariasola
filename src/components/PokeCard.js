@@ -2,7 +2,7 @@ import React from "react";
 import "../stylesheets/PokeCard.css";
 const renderTypes = pokemon => {
   return pokemon.map((type, index) => (
-    <li className="pokemon_types_item" key={index}>
+    <li className={`pokemon_types_item ${type}`} key={index}>
       {type}
     </li>
   ));

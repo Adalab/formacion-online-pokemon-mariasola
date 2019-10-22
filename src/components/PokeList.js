@@ -1,11 +1,17 @@
 import React from "react";
 import PokeCard from "./PokeCard";
+import OpenPokeball from "../images/openPokeball.png";
 import "../stylesheets/PokeList.css";
 
 const PokeList = props => {
   if (props.pokemons.length === 0) {
     return (
       <div className="not_found">
+        <img
+          src={OpenPokeball}
+          alt="Open Pokeball"
+          className="not_found_pokeball"
+        />
         <p className="not_found_text">¡Ups!No hay pokemons que coincidan</p>
       </div>
     );

@@ -23,9 +23,21 @@
 .not_found {
   margin-top: 80px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  border: 8px solid #86CEB7;
+}
+.not_found_pokeball{
+  width: 350px;
+  height: auto;
 }
 .not_found_text{
   font-size: 20px;
-  color: white;
+  font-weight: 700;
+  color: rgb(60, 60, 60);
+  padding-bottom: 15px;
+  font-family: "Turret Road", cursive;
 }
